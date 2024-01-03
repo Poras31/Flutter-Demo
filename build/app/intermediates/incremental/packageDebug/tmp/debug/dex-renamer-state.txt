@@ -1,0 +1,4 @@
+#Wed Jan 03 12:29:29 IST 2024
+base.0=C\:\\Users\\Shivay\\FlutterProjects\\chat_ui_demo\\chat_ui_demo\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

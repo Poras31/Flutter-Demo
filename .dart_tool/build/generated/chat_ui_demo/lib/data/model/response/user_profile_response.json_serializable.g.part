@@ -1,0 +1,49 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+UserData _$UserDataFromJson(Map<String, dynamic> json) => UserData(
+      id: json['id'] as int?,
+      mobileNumber: json['mobile_number'] as String?,
+      signupWith: json['signup_with'] as String?,
+      name: json['name'] as String?,
+      email: json['email'] as String?,
+      token: json['token'] as String?,
+      profileImage: json['profile_image'] as String?,
+      countryCode: json['country_code'] as String?,
+      dob: json['date_of_birth'] as String?,
+      gender: json['gender'] as String?,
+      loginType: json['login_type'] as String?,
+      firstName: json['first_name'] as String?,
+      lastName: json['last_name'] as String?,
+      referralCode: json['referal_code'] as String?,
+      coin: json['coin'] as int?,
+      hotwordTotal: json['hotword_total'] as int?,
+      playTotal: json['sample_app_play_total'] as int?,
+      storyTotal: json['story_read'] as int?,
+      joiningBonus: json['joining_bonus'] as int?,
+      referTotal: json['refer_total'] as int?,
+    );
+
+Map<String, dynamic> _$UserDataToJson(UserData instance) => <String, dynamic>{
+      'id': instance.id,
+      'mobile_number': instance.mobileNumber,
+      'signup_with': instance.signupWith,
+      'name': instance.name,
+      'email': instance.email,
+      'country_code': instance.countryCode,
+      'profile_image': instance.profileImage,
+      'token': instance.token,
+      'date_of_birth': instance.dob,
+      'gender': instance.gender,
+      'login_type': instance.loginType,
+      'first_name': instance.firstName,
+      'last_name': instance.lastName,
+      'referal_code': instance.referralCode,
+      'coin': instance.coin,
+      'hotword_total': instance.hotwordTotal,
+      'sample_app_play_total': instance.playTotal,
+      'story_read': instance.storyTotal,
+      'joining_bonus': instance.joiningBonus,
+      'refer_total': instance.referTotal,
+    };
